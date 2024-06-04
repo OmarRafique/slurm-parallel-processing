@@ -31,7 +31,7 @@ chmod +x sshell
 
 
 This basically automates the submission of jobs. 
-Using  & make things parallel on the same CPU but is not used to get another CPU or node.
+Using the symbol '&' to make things parallel on the same CPU but is not used to get another CPU or node.
 
 _______________________________________________________________________________________
 create_slurm_jobs.sh
