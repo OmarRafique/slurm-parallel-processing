@@ -10,7 +10,7 @@ This is the main file that executes the code parallely on different nodes of the
 Run this as:
 
 sbatch slurm_new.sh
-squeue -u reora
+squeue -u <user-name>
 
 The results will be saved in 'results' folder.
 The logs will be saved in the 'slurm_logs.sh' folder.
