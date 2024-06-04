@@ -10,7 +10,8 @@ This is the main file that executes the code parallely on different nodes of the
 Run this as:
 
 sbatch slurm_new.sh
-squeue -u <user-name>
+
+squeue -u \<user-name\>
 
 The results will be saved in 'results' folder.
 The logs will be saved in the 'slurm_logs.sh' folder.
@@ -27,6 +28,7 @@ ________________________________________________________________________________
 run this using:
 
 chmod +x sshell
+
 ./sshell.sh
 
 
@@ -35,9 +37,11 @@ Using the symbol '&' to make things parallel on the same CPU but is not used to 
 
 _______________________________________________________________________________________
 create_slurm_jobs.sh
+
 This is used to automate the creation of slurm jobs. Does not work.
 
 chmod +x create_slurm_jobs.sh
+
 ./create_slurm_jobs.sh
 
 
