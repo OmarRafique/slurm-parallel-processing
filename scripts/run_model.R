@@ -5,7 +5,7 @@ if (!dir.exists("~/project_directory/results")) {
     dir.create("~/project_directory/results")
 }
 
-# Read in the data
+# GEt the datasets
 phenotype <- read.csv("~/project_directory/data/phenotype.csv")
 cg_matrix <- read.csv("~/project_directory/data/cg_matrix.csv", row.names = 1)
 
