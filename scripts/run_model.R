@@ -1,4 +1,3 @@
-# Load required packages
 library(dplyr)
 
 # Create results directory if it doesn't exist
@@ -10,10 +9,9 @@ if (!dir.exists("~/project_directory/results")) {
 phenotype <- read.csv("~/project_directory/data/phenotype.csv")
 cg_matrix <- read.csv("~/project_directory/data/cg_matrix.csv", row.names = 1)
 
-# Print statements for debugging
+
 print("Phenotype data:")
 print(head(phenotype))
-
 print("CpG matrix data:")
 print(head(cg_matrix))
 
